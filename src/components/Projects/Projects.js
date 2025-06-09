@@ -60,23 +60,11 @@ function Projects() {
               ghLink="https://github.com/Rishavkapil/mongodb-statefulset"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Ec2 instance deployment using Terraform"
+              title="EC2 instance deployment using Terraform"
               description="Created an EC2 instance with attached security group and key pair to ssh into that instance. All this is done using Terraform."
               ghLink="https://github.com/Rishavkapil/terraform-ec2"
             />
